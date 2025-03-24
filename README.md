@@ -65,8 +65,14 @@ In the meantime, you can try a simple demo using:
 python inference_vlm.py
 ```
 ### Dataset
+The datasets for Stage 2 and Stage 3 are available here:
 
-Comming Soon
+👉 [https://huggingface.co/datasets/svla-vlm/svla](https://huggingface.co/datasets/svla-vlm/svla)
+
+**Notes:**
+- The provided datasets consist of tokenized speech represented as discrete tokens.
+- In the paper, we prefix the speech tokens with `<speech_i>`, but in the dataset, the prefix is `<audio_i>`.
+
 
 ## Train
 Comming soon
